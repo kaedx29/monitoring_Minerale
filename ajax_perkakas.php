@@ -32,7 +32,15 @@
                         <?php 
                             $search = $_GET["cariperkakas"];
                             $no = 1;
-                            $data = $db->searchPerkakas('perkakas.id_perkakas', "$search");
+                            $data = $db->searchPerkakas("
+                            perkakas.id_perkakas LIKE '%$search%' 
+                            OR perkakas.tanggal_permintaan LIKE '%$search%' 
+                            OR perkakas.jenis_perkakas LIKE '%$search%' 
+                            OR perkakas.jumlah LIKE '%$search%' 
+                            OR perkakas.keterangan LIKE '%$search%' 
+                            OR perkakas.gedung LIKE '%$search%'
+                            OR perkakas.lantai LIKE '%$search%' 
+                            ", $search);
                             foreach($data as $row){
                             ?>
                             <tr>

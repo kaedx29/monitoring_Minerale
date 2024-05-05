@@ -4,3 +4,11 @@ $(document).ready(function(){
     });
     
 });
+
+$(document).ready(function(){
+    $('#cariperkakas').on('keyup',function(){
+        $('#load').load('ajax_perkakas.php?cari='+$('#cariperkakas').val());
+    });
+    
+});
+

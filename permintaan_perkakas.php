@@ -8,7 +8,7 @@
         <div class="container">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="text-center">Aplikasi Monitoring Permintaan Air dan Perkakas</h4>
+                    <h3 class="text-center">Aplikasi Monitoring Permintaan Air Mineral dan Perkakas</h4>
                     <h4 class="text-center lead">PLN UIP SUMBAGSEL</h4>
                 </div>
             </div>
@@ -20,10 +20,10 @@
                             <a href="index.php?page=tmb_perkakas" class="btn btn-primary">Tambah Permintaan perkakas</a><br><br>
                         </div>
             <div class="col-lg-4">
-                    <form action="ajax_perkakas.php" method="GET" id="searchForm">
+                    <form action="ajax_perkakas.php" method="GET" id="searchForm" autocomplete="on">
                         <div class="form-group">
                             <input type="text" name="cariperkakas" id="cariperkakas" class="form-control" placeholder="Cari Permintaan perkakas">
-                            <input type="submit" name="search" value="Cari" class="btn btn-primary">
+                            <input type="submit" name="search" value="Cari">
                         </div>
                     </form>
                 </div>

@@ -28,7 +28,7 @@
         <div class="container">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="text-center">Aplikasi Monitoring Permintaan Air dan Perkakas</h4>
+                    <h3 class="text-center">Aplikasi Monitoring Permintaan Air Mineral dan Perkakas</h4>
                     <h4 class="text-center lead">PLN UIP SUMBAGSEL</h4>
                 </div>
             </div>
@@ -36,13 +36,13 @@
             <div id="form">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="text-center">Form tambah permintaan air</h4><hr>
+                        <h4 class="text-center">Form tambah permintaan air mineral</h4><hr>
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-8 offset-2">
                                     <form action="" method="post">
                                         <div class="form-group">
-                                            <label for="">Bulan dan Tahun Permintaan</label>
+                                            <label for="">Bulan Permintaan</label>
                                             <input type="text" name="bulan" class="form-control" required>
                                         </div>
                                         <div class="form-group">
@@ -81,7 +81,6 @@
                                             </select>
                                         </div>
                                         <center><input type="submit" value="Tambah" name="tambah" class="btn btn-primary"></center>
-                                        <center><input type="button" id="tambah" value="Tambah" class="btn btn-primary"></center>
                                     </form>
                                 </div>
                             </div>

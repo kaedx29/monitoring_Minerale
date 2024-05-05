@@ -26,7 +26,7 @@
         <div class="container">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="text-center">Aplikasi Monitoring Permintaan Air dan Perkakas</h4>
+                    <h3 class="text-center">Aplikasi Monitoring Permintaan Air Mineral dan Perkakas</h4>
                     <h4 class="text-center lead">PLN UIP SUMBAGSEL</h4>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                                         foreach($data as $row){
                                     ?>
                                         <div class="form-group">
-                                            <label for="">Bulan dan Tahun Permintaan</label>
+                                            <label for="">Bulan Permintaan</label>
                                             <input type="text" value="<?php echo $row['bulan']; ?>" name="bulan" class="form-control" required>
                                         </div>
                                         <div class="form-group">

@@ -31,7 +31,14 @@
                         <?php 
                             $search = $_GET["cari"];
                             $no = 1;
-                            $data = $db->searchAir('air.id_air', "$search");
+                            $data = $db->searchAir(" 
+                            air.id_air LIKE '%$search%' 
+                            OR air.tanggal_permintaan LIKE '%$search%' 
+                            OR air.jenis_air LIKE '%$search%' 
+                            OR air.jumlah LIKE '%$search%' 
+                            OR air.keterangan LIKE '%$search%' 
+                            OR air.gedung LIKE '%$search%' 
+                            ", $search);
                             foreach($data as $row){
                             ?>
                             <tr>
